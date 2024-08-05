@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Archivo Black", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(18, 4, 83);
+}
+
+.container{
+    background: white;
+    width: 50%;
+    max-width: 500px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container h1{
+
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+
+}
+
+.quiz h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn{
+    background: #fff;
+    color: #222;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background:rgb(18, 4, 83);;
+    color: #fff;
+    font-weight: bold;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+}
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
